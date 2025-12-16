@@ -1,0 +1,24 @@
+Loading vocab from /scratch/am15577/projects/ML Music Gen/tokenized/vocab.json
+Vocab size: 103; unk_id=3
+Streaming corpus from /scratch/am15577/projects/ML Music Gen/tokenized/all_abc_clean.txt
+  processed 10,000,000 characters
+  processed 20,000,000 characters
+  processed 30,000,000 characters
+  processed 40,000,000 characters
+  processed 50,000,000 characters
+  processed 60,000,000 characters
+  processed 70,000,000 characters
+  processed 80,000,000 characters
+  processed 90,000,000 characters
+  processed 100,000,000 characters
+  processed 110,000,000 characters
+Total characters converted: 120,000,000
+Total ids: 120,000,000
+Train tokens: 117,600,000 (>= 100M requirement)
+Val tokens:   1,200,000
+Test tokens:  1,200,000
+Saving train to /scratch/am15577/projects/ML Music Gen/tokenized/train.npy
+Saving val to /scratch/am15577/projects/ML Music Gen/tokenized/val.npy
+Saving test to /scratch/am15577/projects/ML Music Gen/tokenized/test.npy
+Saving meta to /scratch/am15577/projects/ML Music Gen/tokenized/meta.json
+Done saving splits.

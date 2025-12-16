@@ -1,0 +1,16 @@
+=== Vocab stats ===
+Vocab size: 103
+
+=== Token counts ===
+Train tokens: 117,600,000
+Val tokens:   1,200,000
+Test tokens:  1,200,000
+Total tokens: 120,000,000
+
+=== Sequence length stats (chars per tune) ===
+Number of tunes: 45,468
+Min length:      200
+Median length:   3,036
+95th percentile: 7,419
+99th percentile: 7,879
+Max length:      8,000

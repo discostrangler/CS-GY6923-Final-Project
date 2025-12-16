@@ -1,0 +1,9 @@
+input_dir: /scratch/am15577/projects/ML Music Gen/transformer/samples
+total_abc_files: 100
+parsed_ok: 60 (60.00%)
+midi_ok: 60 (60.00%)
+examples_written: 10
+per_file_csv: /scratch/am15577/projects/ML Music Gen/transformer/abc_eval_out_repaired3/per_file_results.csv
+midi_dir: /scratch/am15577/projects/ML Music Gen/transformer/abc_eval_out_repaired3/midi
+examples_dir: /scratch/am15577/projects/ML Music Gen/transformer/abc_eval_out_repaired3/examples
+links_file: /scratch/am15577/projects/ML Music Gen/transformer/abc_eval_out_repaired3/abcjs_links.txt

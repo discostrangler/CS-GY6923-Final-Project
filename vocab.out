@@ -1,0 +1,7 @@
+ABC_DIR: /scratch/am15577/projects/ML Music Gen/abc_data
+OUT_DIR: /scratch/am15577/projects/ML Music Gen/tokenized
+Found 175925 .abc files
+Found 99 unique characters
+Total vocab size (including specials): 103
+Saved vocab to /scratch/am15577/projects/ML Music Gen/tokenized/vocab.json
+Saved concatenated corpus to /scratch/am15577/projects/ML Music Gen/tokenized/all_abc.txt

@@ -1,0 +1,998 @@
+Using device cuda, training trans_xl for 5 epochs
+Vocab size: 103
+trans_xl parameters: 85,331,712
+Steps per epoch: 7177
+Epoch 1/5
+Step 50 loss 3.1180 lr 0.000009
+Step 100 loss 2.2730 lr 0.000017
+Step 150 loss 1.9622 lr 0.000025
+Step 200 loss 1.6997 lr 0.000034
+[eval] epoch 1 step 200 val_loss 1.7500
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 1.7500)
+Step 250 loss 1.6551 lr 0.000042
+Step 300 loss 1.7771 lr 0.000050
+Step 350 loss 1.6816 lr 0.000059
+Step 400 loss 1.6861 lr 0.000067
+[eval] epoch 1 step 400 val_loss 1.5168
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 1.5168)
+Step 450 loss 1.3701 lr 0.000075
+Step 500 loss 1.5007 lr 0.000084
+Step 550 loss 1.3478 lr 0.000092
+Step 600 loss 1.5566 lr 0.000101
+[eval] epoch 1 step 600 val_loss 1.3685
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 1.3685)
+Step 650 loss 1.5036 lr 0.000109
+Step 700 loss 1.3063 lr 0.000117
+Step 750 loss 1.3534 lr 0.000126
+Step 800 loss 1.2147 lr 0.000134
+[eval] epoch 1 step 800 val_loss 1.2240
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 1.2240)
+Step 850 loss 1.3240 lr 0.000142
+Step 900 loss 1.2449 lr 0.000151
+Step 950 loss 1.4358 lr 0.000159
+Step 1000 loss 1.0787 lr 0.000167
+[eval] epoch 1 step 1000 val_loss 1.1199
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 1.1199)
+Step 1050 loss 1.0856 lr 0.000176
+Step 1100 loss 1.3226 lr 0.000184
+Step 1150 loss 1.0689 lr 0.000192
+Step 1200 loss 1.0815 lr 0.000201
+[eval] epoch 1 step 1200 val_loss 1.0169
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 1.0169)
+Step 1250 loss 0.9556 lr 0.000209
+Step 1300 loss 1.0021 lr 0.000218
+Step 1350 loss 1.1209 lr 0.000226
+Step 1400 loss 0.9059 lr 0.000234
+[eval] epoch 1 step 1400 val_loss 0.9755
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.9755)
+Step 1450 loss 1.1168 lr 0.000243
+Step 1500 loss 0.9478 lr 0.000251
+Step 1550 loss 1.1559 lr 0.000259
+Step 1600 loss 0.9781 lr 0.000268
+[eval] epoch 1 step 1600 val_loss 0.9148
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.9148)
+Step 1650 loss 0.9541 lr 0.000276
+Step 1700 loss 0.8953 lr 0.000284
+Step 1750 loss 0.8067 lr 0.000293
+Step 1800 loss 0.9304 lr 0.000300
+[eval] epoch 1 step 1800 val_loss 0.8645
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.8645)
+Step 1850 loss 0.7565 lr 0.000300
+Step 1900 loss 0.8004 lr 0.000300
+Step 1950 loss 0.8401 lr 0.000300
+Step 2000 loss 0.8544 lr 0.000300
+[eval] epoch 1 step 2000 val_loss 0.8289
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.8289)
+Step 2050 loss 0.8567 lr 0.000300
+Step 2100 loss 0.7369 lr 0.000300
+Step 2150 loss 0.8903 lr 0.000300
+Step 2200 loss 0.7711 lr 0.000300
+[eval] epoch 1 step 2200 val_loss 0.7955
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.7955)
+Step 2250 loss 0.7040 lr 0.000300
+Step 2300 loss 0.5654 lr 0.000300
+Step 2350 loss 0.7522 lr 0.000300
+Step 2400 loss 0.5664 lr 0.000300
+[eval] epoch 1 step 2400 val_loss 0.7649
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.7649)
+Step 2450 loss 0.7878 lr 0.000300
+Step 2500 loss 0.6172 lr 0.000300
+Step 2550 loss 0.7700 lr 0.000300
+Step 2600 loss 0.5097 lr 0.000300
+[eval] epoch 1 step 2600 val_loss 0.7244
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.7244)
+Step 2650 loss 0.7348 lr 0.000300
+Step 2700 loss 0.7220 lr 0.000299
+Step 2750 loss 0.6645 lr 0.000299
+Step 2800 loss 0.7121 lr 0.000299
+[eval] epoch 1 step 2800 val_loss 0.7032
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.7032)
+Step 2850 loss 0.6059 lr 0.000299
+Step 2900 loss 0.7343 lr 0.000299
+Step 2950 loss 0.5261 lr 0.000299
+Step 3000 loss 0.9467 lr 0.000299
+[eval] epoch 1 step 3000 val_loss 0.6883
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.6883)
+Step 3050 loss 0.6457 lr 0.000299
+Step 3100 loss 0.6709 lr 0.000299
+Step 3150 loss 0.7391 lr 0.000299
+Step 3200 loss 0.7839 lr 0.000299
+[eval] epoch 1 step 3200 val_loss 0.6764
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.6764)
+Step 3250 loss 0.6310 lr 0.000299
+Step 3300 loss 0.5257 lr 0.000299
+Step 3350 loss 0.7457 lr 0.000298
+Step 3400 loss 0.7927 lr 0.000298
+[eval] epoch 1 step 3400 val_loss 0.6645
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.6645)
+Step 3450 loss 0.6034 lr 0.000298
+Step 3500 loss 0.6703 lr 0.000298
+Step 3550 loss 0.7444 lr 0.000298
+Step 3600 loss 0.6195 lr 0.000298
+[eval] epoch 1 step 3600 val_loss 0.6522
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.6522)
+Step 3650 loss 0.7018 lr 0.000298
+Step 3700 loss 0.6182 lr 0.000298
+Step 3750 loss 0.5273 lr 0.000298
+Step 3800 loss 0.6568 lr 0.000297
+[eval] epoch 1 step 3800 val_loss 0.6489
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.6489)
+Step 3850 loss 0.6463 lr 0.000297
+Step 3900 loss 0.6004 lr 0.000297
+Step 3950 loss 0.8180 lr 0.000297
+Step 4000 loss 0.4201 lr 0.000297
+[eval] epoch 1 step 4000 val_loss 0.6410
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.6410)
+Step 4050 loss 0.7135 lr 0.000297
+Step 4100 loss 0.5143 lr 0.000297
+Step 4150 loss 0.5154 lr 0.000296
+Step 4200 loss 0.5008 lr 0.000296
+[eval] epoch 1 step 4200 val_loss 0.6386
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.6386)
+Step 4250 loss 0.5721 lr 0.000296
+Step 4300 loss 0.7149 lr 0.000296
+Step 4350 loss 0.7086 lr 0.000296
+Step 4400 loss 0.5536 lr 0.000296
+[eval] epoch 1 step 4400 val_loss 0.6286
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.6286)
+Step 4450 loss 0.6434 lr 0.000296
+Step 4500 loss 0.6658 lr 0.000295
+Step 4550 loss 0.5759 lr 0.000295
+Step 4600 loss 0.7498 lr 0.000295
+[eval] epoch 1 step 4600 val_loss 0.6284
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.6284)
+Step 4650 loss 0.8357 lr 0.000295
+Step 4700 loss 0.6581 lr 0.000295
+Step 4750 loss 1.0290 lr 0.000294
+Step 4800 loss 0.5774 lr 0.000294
+[eval] epoch 1 step 4800 val_loss 0.6150
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.6150)
+Step 4850 loss 0.7159 lr 0.000294
+Step 4900 loss 0.6138 lr 0.000294
+Step 4950 loss 0.4934 lr 0.000294
+Step 5000 loss 0.6652 lr 0.000294
+[eval] epoch 1 step 5000 val_loss 0.6165
+Step 5050 loss 0.7231 lr 0.000293
+Step 5100 loss 0.5160 lr 0.000293
+Step 5150 loss 0.6251 lr 0.000293
+Step 5200 loss 0.7048 lr 0.000293
+[eval] epoch 1 step 5200 val_loss 0.6111
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.6111)
+Step 5250 loss 0.5923 lr 0.000292
+Step 5300 loss 0.7452 lr 0.000292
+Step 5350 loss 0.4424 lr 0.000292
+Step 5400 loss 0.5859 lr 0.000292
+[eval] epoch 1 step 5400 val_loss 0.6067
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.6067)
+Step 5450 loss 0.6280 lr 0.000292
+Step 5500 loss 0.6316 lr 0.000291
+Step 5550 loss 0.5177 lr 0.000291
+Step 5600 loss 0.4140 lr 0.000291
+[eval] epoch 1 step 5600 val_loss 0.6023
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.6023)
+Step 5650 loss 0.7022 lr 0.000291
+Step 5700 loss 0.6939 lr 0.000290
+Step 5750 loss 0.6323 lr 0.000290
+Step 5800 loss 0.5676 lr 0.000290
+[eval] epoch 1 step 5800 val_loss 0.6004
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.6004)
+Step 5850 loss 0.6134 lr 0.000290
+Step 5900 loss 0.7850 lr 0.000289
+Step 5950 loss 0.5166 lr 0.000289
+Step 6000 loss 0.5983 lr 0.000289
+[eval] epoch 1 step 6000 val_loss 0.5934
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5934)
+Step 6050 loss 0.4541 lr 0.000289
+Step 6100 loss 0.5429 lr 0.000288
+Step 6150 loss 0.5857 lr 0.000288
+Step 6200 loss 0.5759 lr 0.000288
+[eval] epoch 1 step 6200 val_loss 0.5896
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5896)
+Step 6250 loss 0.7534 lr 0.000288
+Step 6300 loss 0.6714 lr 0.000287
+Step 6350 loss 0.6450 lr 0.000287
+Step 6400 loss 0.6244 lr 0.000287
+[eval] epoch 1 step 6400 val_loss 0.5883
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5883)
+Step 6450 loss 0.5142 lr 0.000286
+Step 6500 loss 0.6403 lr 0.000286
+Step 6550 loss 0.6405 lr 0.000286
+Step 6600 loss 0.5458 lr 0.000286
+[eval] epoch 1 step 6600 val_loss 0.5860
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5860)
+Step 6650 loss 0.6441 lr 0.000285
+Step 6700 loss 0.4035 lr 0.000285
+Step 6750 loss 0.6927 lr 0.000285
+Step 6800 loss 0.4838 lr 0.000284
+[eval] epoch 1 step 6800 val_loss 0.5828
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5828)
+Step 6850 loss 0.5927 lr 0.000284
+Step 6900 loss 0.6390 lr 0.000284
+Step 6950 loss 0.5425 lr 0.000283
+Step 7000 loss 0.4875 lr 0.000283
+[eval] epoch 1 step 7000 val_loss 0.5825
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5825)
+Step 7050 loss 0.6484 lr 0.000283
+Step 7100 loss 0.5341 lr 0.000282
+Step 7150 loss 0.5763 lr 0.000282
+[eval] epoch 1 step 7177 val_loss 0.5733
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5733)
+Epoch 2/5
+Step 7200 loss 0.6381 lr 0.000282
+[eval] epoch 2 step 7200 val_loss 0.5731
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5731)
+Step 7250 loss 0.6821 lr 0.000281
+Step 7300 loss 0.6376 lr 0.000281
+Step 7350 loss 0.5844 lr 0.000281
+Step 7400 loss 0.7738 lr 0.000280
+[eval] epoch 2 step 7400 val_loss 0.5742
+Step 7450 loss 0.5607 lr 0.000280
+Step 7500 loss 0.6388 lr 0.000280
+Step 7550 loss 0.6434 lr 0.000279
+Step 7600 loss 0.5925 lr 0.000279
+[eval] epoch 2 step 7600 val_loss 0.5739
+Step 7650 loss 0.6279 lr 0.000279
+Step 7700 loss 0.4478 lr 0.000278
+Step 7750 loss 0.5971 lr 0.000278
+Step 7800 loss 0.6559 lr 0.000278
+[eval] epoch 2 step 7800 val_loss 0.5725
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5725)
+Step 7850 loss 0.5124 lr 0.000277
+Step 7900 loss 0.5429 lr 0.000277
+Step 7950 loss 0.5681 lr 0.000277
+Step 8000 loss 0.5514 lr 0.000276
+[eval] epoch 2 step 8000 val_loss 0.5699
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5699)
+Step 8050 loss 0.7120 lr 0.000276
+Step 8100 loss 0.4506 lr 0.000275
+Step 8150 loss 0.5918 lr 0.000275
+Step 8200 loss 0.4242 lr 0.000275
+[eval] epoch 2 step 8200 val_loss 0.5717
+Step 8250 loss 0.6964 lr 0.000274
+Step 8300 loss 0.5966 lr 0.000274
+Step 8350 loss 0.6453 lr 0.000273
+Step 8400 loss 0.5910 lr 0.000273
+[eval] epoch 2 step 8400 val_loss 0.5690
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5690)
+Step 8450 loss 0.6011 lr 0.000273
+Step 8500 loss 0.6662 lr 0.000272
+Step 8550 loss 0.5311 lr 0.000272
+Step 8600 loss 0.3683 lr 0.000271
+[eval] epoch 2 step 8600 val_loss 0.5684
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5684)
+Step 8650 loss 0.6423 lr 0.000271
+Step 8700 loss 0.6968 lr 0.000271
+Step 8750 loss 0.5747 lr 0.000270
+Step 8800 loss 0.4328 lr 0.000270
+[eval] epoch 2 step 8800 val_loss 0.5649
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5649)
+Step 8850 loss 0.7976 lr 0.000269
+Step 8900 loss 0.6265 lr 0.000269
+Step 8950 loss 0.4654 lr 0.000269
+Step 9000 loss 0.4814 lr 0.000268
+[eval] epoch 2 step 9000 val_loss 0.5639
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5639)
+Step 9050 loss 0.5672 lr 0.000268
+Step 9100 loss 0.4048 lr 0.000267
+Step 9150 loss 0.4678 lr 0.000267
+Step 9200 loss 0.6574 lr 0.000266
+[eval] epoch 2 step 9200 val_loss 0.5633
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5633)
+Step 9250 loss 0.3855 lr 0.000266
+Step 9300 loss 0.4415 lr 0.000266
+Step 9350 loss 0.4447 lr 0.000265
+Step 9400 loss 0.4109 lr 0.000265
+[eval] epoch 2 step 9400 val_loss 0.5649
+Step 9450 loss 0.5025 lr 0.000264
+Step 9500 loss 0.6656 lr 0.000264
+Step 9550 loss 0.5061 lr 0.000263
+Step 9600 loss 0.5579 lr 0.000263
+[eval] epoch 2 step 9600 val_loss 0.5614
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5614)
+Step 9650 loss 0.5109 lr 0.000262
+Step 9700 loss 0.6479 lr 0.000262
+Step 9750 loss 0.5945 lr 0.000261
+Step 9800 loss 0.6305 lr 0.000261
+[eval] epoch 2 step 9800 val_loss 0.5598
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5598)
+Step 9850 loss 0.4988 lr 0.000261
+Step 9900 loss 0.5167 lr 0.000260
+Step 9950 loss 0.6825 lr 0.000260
+Step 10000 loss 0.5286 lr 0.000259
+[eval] epoch 2 step 10000 val_loss 0.5601
+Step 10050 loss 0.6919 lr 0.000259
+Step 10100 loss 0.5318 lr 0.000258
+Step 10150 loss 0.5623 lr 0.000258
+Step 10200 loss 0.5839 lr 0.000257
+[eval] epoch 2 step 10200 val_loss 0.5564
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5564)
+Step 10250 loss 0.5845 lr 0.000257
+Step 10300 loss 0.6180 lr 0.000256
+Step 10350 loss 0.7081 lr 0.000256
+Step 10400 loss 0.5746 lr 0.000255
+[eval] epoch 2 step 10400 val_loss 0.5564
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5564)
+Step 10450 loss 0.7440 lr 0.000255
+Step 10500 loss 0.5900 lr 0.000254
+Step 10550 loss 0.6414 lr 0.000254
+Step 10600 loss 0.5574 lr 0.000253
+[eval] epoch 2 step 10600 val_loss 0.5547
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5547)
+Step 10650 loss 0.5017 lr 0.000253
+Step 10700 loss 0.6836 lr 0.000252
+Step 10750 loss 0.4350 lr 0.000252
+Step 10800 loss 0.6978 lr 0.000251
+[eval] epoch 2 step 10800 val_loss 0.5541
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5541)
+Step 10850 loss 0.6932 lr 0.000251
+Step 10900 loss 0.4921 lr 0.000250
+Step 10950 loss 0.5938 lr 0.000250
+Step 11000 loss 0.6608 lr 0.000249
+[eval] epoch 2 step 11000 val_loss 0.5535
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5535)
+Step 11050 loss 0.5371 lr 0.000249
+Step 11100 loss 0.6711 lr 0.000248
+Step 11150 loss 0.5174 lr 0.000248
+Step 11200 loss 0.5453 lr 0.000247
+[eval] epoch 2 step 11200 val_loss 0.5531
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5531)
+Step 11250 loss 0.4655 lr 0.000247
+Step 11300 loss 0.6203 lr 0.000246
+Step 11350 loss 0.5770 lr 0.000246
+Step 11400 loss 0.5276 lr 0.000245
+[eval] epoch 2 step 11400 val_loss 0.5544
+Step 11450 loss 0.6601 lr 0.000244
+Step 11500 loss 0.6497 lr 0.000244
+Step 11550 loss 0.4607 lr 0.000243
+Step 11600 loss 0.5000 lr 0.000243
+[eval] epoch 2 step 11600 val_loss 0.5517
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5517)
+Step 11650 loss 0.5089 lr 0.000242
+Step 11700 loss 0.5260 lr 0.000242
+Step 11750 loss 0.6161 lr 0.000241
+Step 11800 loss 0.4823 lr 0.000241
+[eval] epoch 2 step 11800 val_loss 0.5494
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5494)
+Step 11850 loss 0.5123 lr 0.000240
+Step 11900 loss 0.5498 lr 0.000240
+Step 11950 loss 0.5392 lr 0.000239
+Step 12000 loss 0.5669 lr 0.000238
+[eval] epoch 2 step 12000 val_loss 0.5466
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5466)
+Step 12050 loss 0.6124 lr 0.000238
+Step 12100 loss 0.6402 lr 0.000237
+Step 12150 loss 0.4763 lr 0.000237
+Step 12200 loss 0.5620 lr 0.000236
+[eval] epoch 2 step 12200 val_loss 0.5454
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5454)
+Step 12250 loss 0.5674 lr 0.000236
+Step 12300 loss 0.4699 lr 0.000235
+Step 12350 loss 0.5934 lr 0.000234
+Step 12400 loss 0.5579 lr 0.000234
+[eval] epoch 2 step 12400 val_loss 0.5456
+Step 12450 loss 0.5483 lr 0.000233
+Step 12500 loss 0.4182 lr 0.000233
+Step 12550 loss 0.8342 lr 0.000232
+Step 12600 loss 0.5194 lr 0.000232
+[eval] epoch 2 step 12600 val_loss 0.5439
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5439)
+Step 12650 loss 0.4538 lr 0.000231
+Step 12700 loss 0.5463 lr 0.000230
+Step 12750 loss 0.6439 lr 0.000230
+Step 12800 loss 0.5252 lr 0.000229
+[eval] epoch 2 step 12800 val_loss 0.5454
+Step 12850 loss 0.5680 lr 0.000229
+Step 12900 loss 0.4617 lr 0.000228
+Step 12950 loss 0.5287 lr 0.000227
+Step 13000 loss 0.4154 lr 0.000227
+[eval] epoch 2 step 13000 val_loss 0.5453
+Step 13050 loss 0.5244 lr 0.000226
+Step 13100 loss 0.5914 lr 0.000226
+Step 13150 loss 0.5466 lr 0.000225
+Step 13200 loss 0.6439 lr 0.000224
+[eval] epoch 2 step 13200 val_loss 0.5403
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5403)
+Step 13250 loss 0.4390 lr 0.000224
+Step 13300 loss 0.4811 lr 0.000223
+Step 13350 loss 0.4575 lr 0.000223
+Step 13400 loss 0.4685 lr 0.000222
+[eval] epoch 2 step 13400 val_loss 0.5424
+Step 13450 loss 0.6905 lr 0.000221
+Step 13500 loss 0.5788 lr 0.000221
+Step 13550 loss 0.4986 lr 0.000220
+Step 13600 loss 0.4448 lr 0.000220
+[eval] epoch 2 step 13600 val_loss 0.5403
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5403)
+Step 13650 loss 0.6281 lr 0.000219
+Step 13700 loss 0.5745 lr 0.000218
+Step 13750 loss 0.4688 lr 0.000218
+Step 13800 loss 0.5591 lr 0.000217
+[eval] epoch 2 step 13800 val_loss 0.5365
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5365)
+Step 13850 loss 0.6612 lr 0.000217
+Step 13900 loss 0.7729 lr 0.000216
+Step 13950 loss 0.4759 lr 0.000215
+Step 14000 loss 0.5459 lr 0.000215
+[eval] epoch 2 step 14000 val_loss 0.5388
+Step 14050 loss 0.4449 lr 0.000214
+Step 14100 loss 0.5917 lr 0.000213
+Step 14150 loss 0.4713 lr 0.000213
+Step 14200 loss 0.4637 lr 0.000212
+[eval] epoch 2 step 14200 val_loss 0.5309
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5309)
+Step 14250 loss 0.4288 lr 0.000212
+Step 14300 loss 0.7454 lr 0.000211
+Step 14350 loss 0.7575 lr 0.000210
+[eval] epoch 2 step 14354 val_loss 0.5318
+Epoch 3/5
+Step 14400 loss 0.3994 lr 0.000210
+[eval] epoch 3 step 14400 val_loss 0.5370
+Step 14450 loss 0.5806 lr 0.000209
+Step 14500 loss 0.4977 lr 0.000208
+Step 14550 loss 0.4157 lr 0.000208
+Step 14600 loss 0.4248 lr 0.000207
+[eval] epoch 3 step 14600 val_loss 0.5329
+Step 14650 loss 0.7176 lr 0.000206
+Step 14700 loss 0.5827 lr 0.000206
+Step 14750 loss 0.5153 lr 0.000205
+Step 14800 loss 0.3762 lr 0.000205
+[eval] epoch 3 step 14800 val_loss 0.5369
+Step 14850 loss 0.4690 lr 0.000204
+Step 14900 loss 0.5347 lr 0.000203
+Step 14950 loss 0.5644 lr 0.000203
+Step 15000 loss 0.4497 lr 0.000202
+[eval] epoch 3 step 15000 val_loss 0.5336
+Step 15050 loss 0.4678 lr 0.000201
+Step 15100 loss 0.6085 lr 0.000201
+Step 15150 loss 0.6139 lr 0.000200
+Step 15200 loss 0.5165 lr 0.000199
+[eval] epoch 3 step 15200 val_loss 0.5334
+Step 15250 loss 0.5216 lr 0.000199
+Step 15300 loss 0.5517 lr 0.000198
+Step 15350 loss 0.6794 lr 0.000197
+Step 15400 loss 0.4793 lr 0.000197
+[eval] epoch 3 step 15400 val_loss 0.5337
+Step 15450 loss 0.3612 lr 0.000196
+Step 15500 loss 0.4060 lr 0.000195
+Step 15550 loss 0.4318 lr 0.000195
+Step 15600 loss 0.5814 lr 0.000194
+[eval] epoch 3 step 15600 val_loss 0.5321
+Step 15650 loss 0.5781 lr 0.000193
+Step 15700 loss 0.5250 lr 0.000193
+Step 15750 loss 0.7714 lr 0.000192
+Step 15800 loss 0.5081 lr 0.000191
+[eval] epoch 3 step 15800 val_loss 0.5318
+Step 15850 loss 0.4871 lr 0.000191
+Step 15900 loss 0.4611 lr 0.000190
+Step 15950 loss 0.7164 lr 0.000189
+Step 16000 loss 0.6000 lr 0.000189
+[eval] epoch 3 step 16000 val_loss 0.5329
+Step 16050 loss 0.5963 lr 0.000188
+Step 16100 loss 0.5580 lr 0.000187
+Step 16150 loss 0.4531 lr 0.000187
+Step 16200 loss 0.5914 lr 0.000186
+[eval] epoch 3 step 16200 val_loss 0.5302
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5302)
+Step 16250 loss 0.6109 lr 0.000185
+Step 16300 loss 0.4207 lr 0.000185
+Step 16350 loss 0.4343 lr 0.000184
+Step 16400 loss 0.4481 lr 0.000183
+[eval] epoch 3 step 16400 val_loss 0.5279
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5279)
+Step 16450 loss 0.5550 lr 0.000183
+Step 16500 loss 0.6310 lr 0.000182
+Step 16550 loss 0.4064 lr 0.000181
+Step 16600 loss 0.7283 lr 0.000181
+[eval] epoch 3 step 16600 val_loss 0.5290
+Step 16650 loss 0.5530 lr 0.000180
+Step 16700 loss 0.3953 lr 0.000179
+Step 16750 loss 0.5099 lr 0.000179
+Step 16800 loss 0.7658 lr 0.000178
+[eval] epoch 3 step 16800 val_loss 0.5270
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5270)
+Step 16850 loss 0.4634 lr 0.000177
+Step 16900 loss 0.7421 lr 0.000177
+Step 16950 loss 0.4678 lr 0.000176
+Step 17000 loss 0.4891 lr 0.000175
+[eval] epoch 3 step 17000 val_loss 0.5271
+Step 17050 loss 0.4999 lr 0.000175
+Step 17100 loss 0.4677 lr 0.000174
+Step 17150 loss 0.4094 lr 0.000173
+Step 17200 loss 0.6016 lr 0.000173
+[eval] epoch 3 step 17200 val_loss 0.5269
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5269)
+Step 17250 loss 0.5266 lr 0.000172
+Step 17300 loss 0.4051 lr 0.000171
+Step 17350 loss 0.4712 lr 0.000171
+Step 17400 loss 0.5339 lr 0.000170
+[eval] epoch 3 step 17400 val_loss 0.5246
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5246)
+Step 17450 loss 0.5135 lr 0.000169
+Step 17500 loss 0.4865 lr 0.000168
+Step 17550 loss 0.6763 lr 0.000168
+Step 17600 loss 0.5519 lr 0.000167
+[eval] epoch 3 step 17600 val_loss 0.5246
+Step 17650 loss 0.5146 lr 0.000166
+Step 17700 loss 0.4813 lr 0.000166
+Step 17750 loss 0.6376 lr 0.000165
+Step 17800 loss 0.4560 lr 0.000164
+[eval] epoch 3 step 17800 val_loss 0.5241
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5241)
+Step 17850 loss 0.5015 lr 0.000164
+Step 17900 loss 0.6583 lr 0.000163
+Step 17950 loss 0.5631 lr 0.000162
+Step 18000 loss 0.5576 lr 0.000162
+[eval] epoch 3 step 18000 val_loss 0.5247
+Step 18050 loss 0.5140 lr 0.000161
+Step 18100 loss 0.4945 lr 0.000160
+Step 18150 loss 0.6057 lr 0.000160
+Step 18200 loss 0.4715 lr 0.000159
+[eval] epoch 3 step 18200 val_loss 0.5264
+Step 18250 loss 0.4279 lr 0.000158
+Step 18300 loss 0.5907 lr 0.000157
+Step 18350 loss 0.4811 lr 0.000157
+Step 18400 loss 0.5019 lr 0.000156
+[eval] epoch 3 step 18400 val_loss 0.5287
+Step 18450 loss 0.5229 lr 0.000155
+Step 18500 loss 0.5352 lr 0.000155
+Step 18550 loss 0.5847 lr 0.000154
+Step 18600 loss 0.4995 lr 0.000153
+[eval] epoch 3 step 18600 val_loss 0.5233
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5233)
+Step 18650 loss 0.5375 lr 0.000153
+Step 18700 loss 0.5028 lr 0.000152
+Step 18750 loss 0.6043 lr 0.000151
+Step 18800 loss 0.4832 lr 0.000151
+[eval] epoch 3 step 18800 val_loss 0.5248
+Step 18850 loss 0.5985 lr 0.000150
+Step 18900 loss 0.6009 lr 0.000149
+Step 18950 loss 0.3918 lr 0.000148
+Step 19000 loss 0.5404 lr 0.000148
+[eval] epoch 3 step 19000 val_loss 0.5240
+Step 19050 loss 0.5090 lr 0.000147
+Step 19100 loss 0.5677 lr 0.000146
+Step 19150 loss 0.4772 lr 0.000146
+Step 19200 loss 0.5381 lr 0.000145
+[eval] epoch 3 step 19200 val_loss 0.5205
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5205)
+Step 19250 loss 0.4208 lr 0.000144
+Step 19300 loss 0.4951 lr 0.000144
+Step 19350 loss 0.5465 lr 0.000143
+Step 19400 loss 0.5078 lr 0.000142
+[eval] epoch 3 step 19400 val_loss 0.5207
+Step 19450 loss 0.4558 lr 0.000142
+Step 19500 loss 0.5230 lr 0.000141
+Step 19550 loss 0.3758 lr 0.000140
+Step 19600 loss 0.3584 lr 0.000139
+[eval] epoch 3 step 19600 val_loss 0.5177
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5177)
+Step 19650 loss 0.4958 lr 0.000139
+Step 19700 loss 0.6074 lr 0.000138
+Step 19750 loss 0.5218 lr 0.000137
+Step 19800 loss 0.5796 lr 0.000137
+[eval] epoch 3 step 19800 val_loss 0.5171
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5171)
+Step 19850 loss 0.4831 lr 0.000136
+Step 19900 loss 0.4968 lr 0.000135
+Step 19950 loss 0.5002 lr 0.000135
+Step 20000 loss 0.4563 lr 0.000134
+[eval] epoch 3 step 20000 val_loss 0.5180
+Step 20050 loss 0.4606 lr 0.000133
+Step 20100 loss 0.5501 lr 0.000133
+Step 20150 loss 0.4139 lr 0.000132
+Step 20200 loss 0.6050 lr 0.000131
+[eval] epoch 3 step 20200 val_loss 0.5175
+Step 20250 loss 0.4671 lr 0.000131
+Step 20300 loss 0.4850 lr 0.000130
+Step 20350 loss 0.6026 lr 0.000129
+Step 20400 loss 0.4618 lr 0.000129
+[eval] epoch 3 step 20400 val_loss 0.5174
+Step 20450 loss 0.4366 lr 0.000128
+Step 20500 loss 0.5018 lr 0.000127
+Step 20550 loss 0.5598 lr 0.000126
+Step 20600 loss 0.4453 lr 0.000126
+[eval] epoch 3 step 20600 val_loss 0.5191
+Step 20650 loss 0.5954 lr 0.000125
+Step 20700 loss 0.3027 lr 0.000124
+Step 20750 loss 0.5128 lr 0.000124
+Step 20800 loss 0.3854 lr 0.000123
+[eval] epoch 3 step 20800 val_loss 0.5126
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5126)
+Step 20850 loss 0.4782 lr 0.000122
+Step 20900 loss 0.4706 lr 0.000122
+Step 20950 loss 0.4925 lr 0.000121
+Step 21000 loss 0.4503 lr 0.000120
+[eval] epoch 3 step 21000 val_loss 0.5149
+Step 21050 loss 0.6122 lr 0.000120
+Step 21100 loss 0.4980 lr 0.000119
+Step 21150 loss 0.4520 lr 0.000118
+Step 21200 loss 0.4859 lr 0.000118
+[eval] epoch 3 step 21200 val_loss 0.5165
+Step 21250 loss 0.5442 lr 0.000117
+Step 21300 loss 0.5548 lr 0.000116
+Step 21350 loss 0.4395 lr 0.000116
+Step 21400 loss 0.5674 lr 0.000115
+[eval] epoch 3 step 21400 val_loss 0.5096
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5096)
+Step 21450 loss 0.4995 lr 0.000114
+Step 21500 loss 0.5108 lr 0.000114
+[eval] epoch 3 step 21531 val_loss 0.5096
+Epoch 4/5
+Step 21550 loss 0.4776 lr 0.000113
+Step 21600 loss 0.5231 lr 0.000112
+[eval] epoch 4 step 21600 val_loss 0.5156
+Step 21650 loss 0.4513 lr 0.000112
+Step 21700 loss 0.3914 lr 0.000111
+Step 21750 loss 0.5254 lr 0.000110
+Step 21800 loss 0.4290 lr 0.000110
+[eval] epoch 4 step 21800 val_loss 0.5144
+Step 21850 loss 0.5199 lr 0.000109
+Step 21900 loss 0.6163 lr 0.000108
+Step 21950 loss 0.4694 lr 0.000108
+Step 22000 loss 0.5316 lr 0.000107
+[eval] epoch 4 step 22000 val_loss 0.5175
+Step 22050 loss 0.4513 lr 0.000106
+Step 22100 loss 0.6320 lr 0.000106
+Step 22150 loss 0.4829 lr 0.000105
+Step 22200 loss 0.6357 lr 0.000104
+[eval] epoch 4 step 22200 val_loss 0.5164
+Step 22250 loss 0.4648 lr 0.000104
+Step 22300 loss 0.4890 lr 0.000103
+Step 22350 loss 0.6775 lr 0.000102
+Step 22400 loss 0.5414 lr 0.000102
+[eval] epoch 4 step 22400 val_loss 0.5157
+Step 22450 loss 0.6618 lr 0.000101
+Step 22500 loss 0.5711 lr 0.000100
+Step 22550 loss 0.5032 lr 0.000100
+Step 22600 loss 0.5474 lr 0.000099
+[eval] epoch 4 step 22600 val_loss 0.5150
+Step 22650 loss 0.4600 lr 0.000098
+Step 22700 loss 0.5255 lr 0.000098
+Step 22750 loss 0.5000 lr 0.000097
+Step 22800 loss 0.5223 lr 0.000096
+[eval] epoch 4 step 22800 val_loss 0.5143
+Step 22850 loss 0.5095 lr 0.000096
+Step 22900 loss 0.5401 lr 0.000095
+Step 22950 loss 0.4938 lr 0.000095
+Step 23000 loss 0.4560 lr 0.000094
+[eval] epoch 4 step 23000 val_loss 0.5146
+Step 23050 loss 0.4590 lr 0.000093
+Step 23100 loss 0.4251 lr 0.000093
+Step 23150 loss 0.4761 lr 0.000092
+Step 23200 loss 0.3898 lr 0.000091
+[eval] epoch 4 step 23200 val_loss 0.5174
+Step 23250 loss 0.5007 lr 0.000091
+Step 23300 loss 0.5477 lr 0.000090
+Step 23350 loss 0.4952 lr 0.000089
+Step 23400 loss 0.5414 lr 0.000089
+[eval] epoch 4 step 23400 val_loss 0.5101
+Step 23450 loss 0.4904 lr 0.000088
+Step 23500 loss 0.4876 lr 0.000088
+Step 23550 loss 0.5670 lr 0.000087
+Step 23600 loss 0.5362 lr 0.000086
+[eval] epoch 4 step 23600 val_loss 0.5112
+Step 23650 loss 0.4431 lr 0.000086
+Step 23700 loss 0.5979 lr 0.000085
+Step 23750 loss 0.5362 lr 0.000084
+Step 23800 loss 0.3484 lr 0.000084
+[eval] epoch 4 step 23800 val_loss 0.5107
+Step 23850 loss 0.4380 lr 0.000083
+Step 23900 loss 0.5466 lr 0.000083
+Step 23950 loss 0.4450 lr 0.000082
+Step 24000 loss 0.4652 lr 0.000081
+[eval] epoch 4 step 24000 val_loss 0.5084
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5084)
+Step 24050 loss 0.5279 lr 0.000081
+Step 24100 loss 0.6214 lr 0.000080
+Step 24150 loss 0.3958 lr 0.000079
+Step 24200 loss 0.5468 lr 0.000079
+[eval] epoch 4 step 24200 val_loss 0.5098
+Step 24250 loss 0.5785 lr 0.000078
+Step 24300 loss 0.4321 lr 0.000078
+Step 24350 loss 0.4219 lr 0.000077
+Step 24400 loss 0.4533 lr 0.000076
+[eval] epoch 4 step 24400 val_loss 0.5101
+Step 24450 loss 0.5681 lr 0.000076
+Step 24500 loss 0.5793 lr 0.000075
+Step 24550 loss 0.4061 lr 0.000075
+Step 24600 loss 0.6154 lr 0.000074
+[eval] epoch 4 step 24600 val_loss 0.5051
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5051)
+Step 24650 loss 0.4680 lr 0.000073
+Step 24700 loss 0.4973 lr 0.000073
+Step 24750 loss 0.5190 lr 0.000072
+Step 24800 loss 0.7102 lr 0.000072
+[eval] epoch 4 step 24800 val_loss 0.5066
+Step 24850 loss 0.4477 lr 0.000071
+Step 24900 loss 0.4700 lr 0.000071
+Step 24950 loss 0.5402 lr 0.000070
+Step 25000 loss 0.4682 lr 0.000069
+[eval] epoch 4 step 25000 val_loss 0.5057
+Step 25050 loss 0.4861 lr 0.000069
+Step 25100 loss 0.5365 lr 0.000068
+Step 25150 loss 0.5522 lr 0.000068
+Step 25200 loss 0.6267 lr 0.000067
+[eval] epoch 4 step 25200 val_loss 0.5054
+Step 25250 loss 0.6194 lr 0.000066
+Step 25300 loss 0.4038 lr 0.000066
+Step 25350 loss 0.4356 lr 0.000065
+Step 25400 loss 0.4826 lr 0.000065
+[eval] epoch 4 step 25400 val_loss 0.5060
+Step 25450 loss 0.5886 lr 0.000064
+Step 25500 loss 0.4822 lr 0.000064
+Step 25550 loss 0.4920 lr 0.000063
+Step 25600 loss 0.7038 lr 0.000062
+[eval] epoch 4 step 25600 val_loss 0.5057
+Step 25650 loss 0.4627 lr 0.000062
+Step 25700 loss 0.5411 lr 0.000061
+Step 25750 loss 0.4458 lr 0.000061
+Step 25800 loss 0.4501 lr 0.000060
+[eval] epoch 4 step 25800 val_loss 0.5058
+Step 25850 loss 0.6860 lr 0.000060
+Step 25900 loss 0.5153 lr 0.000059
+Step 25950 loss 0.6105 lr 0.000059
+Step 26000 loss 0.3842 lr 0.000058
+[eval] epoch 4 step 26000 val_loss 0.5075
+Step 26050 loss 0.4949 lr 0.000058
+Step 26100 loss 0.4206 lr 0.000057
+Step 26150 loss 0.4135 lr 0.000056
+Step 26200 loss 0.5631 lr 0.000056
+[eval] epoch 4 step 26200 val_loss 0.5051
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5051)
+Step 26250 loss 0.5719 lr 0.000055
+Step 26300 loss 0.4026 lr 0.000055
+Step 26350 loss 0.7064 lr 0.000054
+Step 26400 loss 0.3972 lr 0.000054
+[eval] epoch 4 step 26400 val_loss 0.5036
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.5036)
+Step 26450 loss 0.6585 lr 0.000053
+Step 26500 loss 0.6059 lr 0.000053
+Step 26550 loss 0.3905 lr 0.000052
+Step 26600 loss 0.4943 lr 0.000052
+[eval] epoch 4 step 26600 val_loss 0.5061
+Step 26650 loss 0.4978 lr 0.000051
+Step 26700 loss 0.5152 lr 0.000051
+Step 26750 loss 0.5698 lr 0.000050
+Step 26800 loss 0.4146 lr 0.000050
+[eval] epoch 4 step 26800 val_loss 0.4996
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.4996)
+Step 26850 loss 0.6217 lr 0.000049
+Step 26900 loss 0.5721 lr 0.000049
+Step 26950 loss 0.5238 lr 0.000048
+Step 27000 loss 0.6223 lr 0.000048
+[eval] epoch 4 step 27000 val_loss 0.5032
+Step 27050 loss 0.5109 lr 0.000047
+Step 27100 loss 0.5726 lr 0.000047
+Step 27150 loss 0.4685 lr 0.000046
+Step 27200 loss 0.4574 lr 0.000046
+[eval] epoch 4 step 27200 val_loss 0.5030
+Step 27250 loss 0.5579 lr 0.000045
+Step 27300 loss 0.4770 lr 0.000045
+Step 27350 loss 0.4033 lr 0.000044
+Step 27400 loss 0.3173 lr 0.000044
+[eval] epoch 4 step 27400 val_loss 0.5020
+Step 27450 loss 0.4242 lr 0.000043
+Step 27500 loss 0.4576 lr 0.000043
+Step 27550 loss 0.4401 lr 0.000042
+Step 27600 loss 0.4933 lr 0.000042
+[eval] epoch 4 step 27600 val_loss 0.5019
+Step 27650 loss 0.6314 lr 0.000041
+Step 27700 loss 0.4895 lr 0.000041
+Step 27750 loss 0.5542 lr 0.000040
+Step 27800 loss 0.4876 lr 0.000040
+[eval] epoch 4 step 27800 val_loss 0.5044
+Step 27850 loss 0.3119 lr 0.000039
+Step 27900 loss 0.5564 lr 0.000039
+Step 27950 loss 0.4766 lr 0.000038
+Step 28000 loss 0.3803 lr 0.000038
+[eval] epoch 4 step 28000 val_loss 0.4994
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.4994)
+Step 28050 loss 0.5504 lr 0.000037
+Step 28100 loss 0.5196 lr 0.000037
+Step 28150 loss 0.5034 lr 0.000037
+Step 28200 loss 0.4395 lr 0.000036
+[eval] epoch 4 step 28200 val_loss 0.5002
+Step 28250 loss 0.4350 lr 0.000036
+Step 28300 loss 0.5187 lr 0.000035
+Step 28350 loss 0.4705 lr 0.000035
+Step 28400 loss 0.4173 lr 0.000034
+[eval] epoch 4 step 28400 val_loss 0.5021
+Step 28450 loss 0.4027 lr 0.000034
+Step 28500 loss 0.4269 lr 0.000033
+Step 28550 loss 0.5312 lr 0.000033
+Step 28600 loss 0.5262 lr 0.000033
+[eval] epoch 4 step 28600 val_loss 0.4963
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.4963)
+Step 28650 loss 0.5331 lr 0.000032
+Step 28700 loss 0.6009 lr 0.000032
+[eval] epoch 4 step 28708 val_loss 0.4969
+Epoch 5/5
+Step 28750 loss 0.3899 lr 0.000031
+Step 28800 loss 0.5333 lr 0.000031
+[eval] epoch 5 step 28800 val_loss 0.5027
+Step 28850 loss 0.4545 lr 0.000030
+Step 28900 loss 0.4607 lr 0.000030
+Step 28950 loss 0.4147 lr 0.000030
+Step 29000 loss 0.4691 lr 0.000029
+[eval] epoch 5 step 29000 val_loss 0.5003
+Step 29050 loss 0.5220 lr 0.000029
+Step 29100 loss 0.3954 lr 0.000028
+Step 29150 loss 0.4883 lr 0.000028
+Step 29200 loss 0.4900 lr 0.000028
+[eval] epoch 5 step 29200 val_loss 0.5017
+Step 29250 loss 0.4264 lr 0.000027
+Step 29300 loss 0.5167 lr 0.000027
+Step 29350 loss 0.4113 lr 0.000026
+Step 29400 loss 0.4427 lr 0.000026
+[eval] epoch 5 step 29400 val_loss 0.5011
+Step 29450 loss 0.5157 lr 0.000026
+Step 29500 loss 0.4617 lr 0.000025
+Step 29550 loss 0.5445 lr 0.000025
+Step 29600 loss 0.2917 lr 0.000024
+[eval] epoch 5 step 29600 val_loss 0.5005
+Step 29650 loss 0.5711 lr 0.000024
+Step 29700 loss 0.6032 lr 0.000024
+Step 29750 loss 0.5086 lr 0.000023
+Step 29800 loss 0.5078 lr 0.000023
+[eval] epoch 5 step 29800 val_loss 0.5014
+Step 29850 loss 0.5854 lr 0.000023
+Step 29900 loss 0.6386 lr 0.000022
+Step 29950 loss 0.5712 lr 0.000022
+Step 30000 loss 0.5772 lr 0.000022
+[eval] epoch 5 step 30000 val_loss 0.5029
+Step 30050 loss 0.5723 lr 0.000021
+Step 30100 loss 0.4003 lr 0.000021
+Step 30150 loss 0.4696 lr 0.000020
+Step 30200 loss 0.3438 lr 0.000020
+[eval] epoch 5 step 30200 val_loss 0.5032
+Step 30250 loss 0.5048 lr 0.000020
+Step 30300 loss 0.4796 lr 0.000019
+Step 30350 loss 0.4622 lr 0.000019
+Step 30400 loss 0.4862 lr 0.000019
+[eval] epoch 5 step 30400 val_loss 0.5033
+Step 30450 loss 0.5816 lr 0.000018
+Step 30500 loss 0.4819 lr 0.000018
+Step 30550 loss 0.3546 lr 0.000018
+Step 30600 loss 0.6028 lr 0.000017
+[eval] epoch 5 step 30600 val_loss 0.4984
+Step 30650 loss 0.4687 lr 0.000017
+Step 30700 loss 0.5746 lr 0.000017
+Step 30750 loss 0.4059 lr 0.000016
+Step 30800 loss 0.5145 lr 0.000016
+[eval] epoch 5 step 30800 val_loss 0.4986
+Step 30850 loss 0.4795 lr 0.000016
+Step 30900 loss 0.4802 lr 0.000016
+Step 30950 loss 0.5207 lr 0.000015
+Step 31000 loss 0.4689 lr 0.000015
+[eval] epoch 5 step 31000 val_loss 0.4988
+Step 31050 loss 0.5749 lr 0.000015
+Step 31100 loss 0.5586 lr 0.000014
+Step 31150 loss 0.4347 lr 0.000014
+Step 31200 loss 0.4418 lr 0.000014
+[eval] epoch 5 step 31200 val_loss 0.4982
+Step 31250 loss 0.5688 lr 0.000013
+Step 31300 loss 0.5308 lr 0.000013
+Step 31350 loss 0.4597 lr 0.000013
+Step 31400 loss 0.5739 lr 0.000013
+[eval] epoch 5 step 31400 val_loss 0.4988
+Step 31450 loss 0.4379 lr 0.000012
+Step 31500 loss 0.3062 lr 0.000012
+Step 31550 loss 0.4686 lr 0.000012
+Step 31600 loss 0.4224 lr 0.000012
+[eval] epoch 5 step 31600 val_loss 0.4985
+Step 31650 loss 0.5212 lr 0.000011
+Step 31700 loss 0.4260 lr 0.000011
+Step 31750 loss 0.5079 lr 0.000011
+Step 31800 loss 0.4124 lr 0.000011
+[eval] epoch 5 step 31800 val_loss 0.4957
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.4957)
+Step 31850 loss 0.6222 lr 0.000010
+Step 31900 loss 0.4094 lr 0.000010
+Step 31950 loss 0.4750 lr 0.000010
+Step 32000 loss 0.4838 lr 0.000010
+[eval] epoch 5 step 32000 val_loss 0.4973
+Step 32050 loss 0.5693 lr 0.000009
+Step 32100 loss 0.3655 lr 0.000009
+Step 32150 loss 0.3943 lr 0.000009
+Step 32200 loss 0.5347 lr 0.000009
+[eval] epoch 5 step 32200 val_loss 0.4969
+Step 32250 loss 0.4796 lr 0.000008
+Step 32300 loss 0.5092 lr 0.000008
+Step 32350 loss 0.4303 lr 0.000008
+Step 32400 loss 0.5413 lr 0.000008
+[eval] epoch 5 step 32400 val_loss 0.4959
+Step 32450 loss 0.5238 lr 0.000007
+Step 32500 loss 0.6347 lr 0.000007
+Step 32550 loss 0.5422 lr 0.000007
+Step 32600 loss 0.4068 lr 0.000007
+[eval] epoch 5 step 32600 val_loss 0.4973
+Step 32650 loss 0.3985 lr 0.000007
+Step 32700 loss 0.4624 lr 0.000006
+Step 32750 loss 0.5006 lr 0.000006
+Step 32800 loss 0.4407 lr 0.000006
+[eval] epoch 5 step 32800 val_loss 0.4973
+Step 32850 loss 0.5390 lr 0.000006
+Step 32900 loss 0.4645 lr 0.000006
+Step 32950 loss 0.3886 lr 0.000005
+Step 33000 loss 0.5537 lr 0.000005
+[eval] epoch 5 step 33000 val_loss 0.4950
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.4950)
+Step 33050 loss 0.4472 lr 0.000005
+Step 33100 loss 0.5225 lr 0.000005
+Step 33150 loss 0.4376 lr 0.000005
+Step 33200 loss 0.5956 lr 0.000005
+[eval] epoch 5 step 33200 val_loss 0.4966
+Step 33250 loss 0.3975 lr 0.000004
+Step 33300 loss 0.3726 lr 0.000004
+Step 33350 loss 0.4164 lr 0.000004
+Step 33400 loss 0.3157 lr 0.000004
+[eval] epoch 5 step 33400 val_loss 0.4947
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.4947)
+Step 33450 loss 0.4565 lr 0.000004
+Step 33500 loss 0.5476 lr 0.000004
+Step 33550 loss 0.5531 lr 0.000003
+Step 33600 loss 0.5501 lr 0.000003
+[eval] epoch 5 step 33600 val_loss 0.4944
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.4944)
+Step 33650 loss 0.5421 lr 0.000003
+Step 33700 loss 0.3410 lr 0.000003
+Step 33750 loss 0.3890 lr 0.000003
+Step 33800 loss 0.4150 lr 0.000003
+[eval] epoch 5 step 33800 val_loss 0.4964
+Step 33850 loss 0.4548 lr 0.000003
+Step 33900 loss 0.4109 lr 0.000003
+Step 33950 loss 0.6259 lr 0.000002
+Step 34000 loss 0.4218 lr 0.000002
+[eval] epoch 5 step 34000 val_loss 0.4955
+Step 34050 loss 0.4939 lr 0.000002
+Step 34100 loss 0.5998 lr 0.000002
+Step 34150 loss 0.3504 lr 0.000002
+Step 34200 loss 0.5917 lr 0.000002
+[eval] epoch 5 step 34200 val_loss 0.4939
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.4939)
+Step 34250 loss 0.4664 lr 0.000002
+Step 34300 loss 0.5320 lr 0.000002
+Step 34350 loss 0.5477 lr 0.000001
+Step 34400 loss 0.4935 lr 0.000001
+[eval] epoch 5 step 34400 val_loss 0.4958
+Step 34450 loss 0.4616 lr 0.000001
+Step 34500 loss 0.4768 lr 0.000001
+Step 34550 loss 0.5595 lr 0.000001
+Step 34600 loss 0.4955 lr 0.000001
+[eval] epoch 5 step 34600 val_loss 0.4955
+Step 34650 loss 0.5349 lr 0.000001
+Step 34700 loss 0.5962 lr 0.000001
+Step 34750 loss 0.3963 lr 0.000001
+Step 34800 loss 0.5306 lr 0.000001
+[eval] epoch 5 step 34800 val_loss 0.4928
+Saved new best checkpoint to /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt (val_loss 0.4928)
+Step 34850 loss 0.3550 lr 0.000001
+Step 34900 loss 0.4365 lr 0.000001
+Step 34950 loss 0.4922 lr 0.000001
+Step 35000 loss 0.4438 lr 0.000000
+[eval] epoch 5 step 35000 val_loss 0.4941
+Step 35050 loss 0.3450 lr 0.000000
+Step 35100 loss 0.6097 lr 0.000000
+Step 35150 loss 0.6020 lr 0.000000
+Step 35200 loss 0.4192 lr 0.000000
+[eval] epoch 5 step 35200 val_loss 0.4942
+Step 35250 loss 0.4454 lr 0.000000
+Step 35300 loss 0.6290 lr 0.000000
+Step 35350 loss 0.5993 lr 0.000000
+Step 35400 loss 0.3434 lr 0.000000
+[eval] epoch 5 step 35400 val_loss 0.4932
+Step 35450 loss 0.4213 lr 0.000000
+Step 35500 loss 0.4464 lr 0.000000
+Step 35550 loss 0.5285 lr 0.000000
+Step 35600 loss 0.5390 lr 0.000000
+[eval] epoch 5 step 35600 val_loss 0.4934
+Step 35650 loss 0.4989 lr 0.000000
+Step 35700 loss 0.5635 lr 0.000000
+Step 35750 loss 0.4322 lr 0.000000
+Step 35800 loss 0.4218 lr 0.000000
+[eval] epoch 5 step 35800 val_loss 0.4935
+Step 35850 loss 0.5503 lr 0.000000
+[eval] epoch 5 step 35885 val_loss 0.4935
+Finished training in 2.51 hours
+Best val loss seen: 0.4928
+Best checkpoint: /scratch/am15577/projects/ML Music Gen/transformer/checkpoints/trans_xl_best.pt

@@ -1,0 +1,8 @@
+Reading from: /scratch/am15577/projects/ML Music Gen/tokenized/all_abc.txt
+Writing cleaned corpus to: /scratch/am15577/projects/ML Music Gen/tokenized/all_abc_clean.txt
+Keeping tunes with 200 <= length <= 8000 chars
+Total tunes scanned:    175925
+Kept tunes:             45468
+Dropped too short:      711
+Dropped too long:       129746
+Cleaned corpus written to /scratch/am15577/projects/ML Music Gen/tokenized/all_abc_clean.txt
