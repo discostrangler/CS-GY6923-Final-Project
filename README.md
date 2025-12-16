@@ -1,131 +1,171 @@
 Scaling Laws for Symbolic Music Language Models (ABC)
 
-This repository contains an end to end project studying scaling behavior for language models trained on symbolic music represented in ABC notation. The workflow covers data cleaning and tokenization, matched size scaling sweeps for Transformer and RNN (LSTM) language models, scaling curve analysis with power law fits, and sample generation plus evaluation.
+This repository contains a complete pipeline for studying scaling laws in symbolic music generation using ABC notation. It covers corpus cleaning, character level tokenization, training matched size Transformer and RNN (LSTM) language models at multiple scales, analyzing validation loss scaling with power law fits, and generating plus evaluating ABC samples.
 
-The full report is included in this repo as ML1.pdf.
+Report: ML_project.pdf
 
 What is included
-	•	Data cleaning and statistics for an ABC corpus
-	•	Character level tokenizer and dataset preparation to NumPy arrays
-	•	Transformer scaling sweep (tiny to XL)
-	•	RNN scaling sweep (tiny to XL)
-	•	Scaling analysis scripts that produce summary CSVs and plots
-	•	A combined comparison module producing side by side plots and a comparison table
-	•	Sample generation plus evaluation utilities, including test set perplexity
+	•	Data cleaning and corpus statistics
+	•	Character vocabulary builder and token dataset preparation
+	•	Transformer scaling sweep (tiny, small, medium, large, xl)
+	•	RNN scaling sweep (tiny, small, medium, large, xl)
+	•	Scaling analysis and plots for both architectures
+	•	Combined comparison plots and tables
+	•	Sample generation and evaluation utilities, including test set perplexity
 
 Repository layout
 
-Top level:
+Top level folders:
+	•	transformer/
+Transformer run logs, scaling artifacts, and evaluation scripts.
+	•	rnn/
+RNN run logs, scaling artifacts, and summaries.
+	•	compare/
+Combined comparison plots, per size loss curves, and tables.
+
+Top level scripts:
 	•	data_cleaning.py
-Cleans the raw ABC corpus and applies quality filters.
+Cleans the ABC corpus and applies quality filters.
 	•	data_stats.py
 Computes dataset statistics such as file counts and length distributions.
 	•	build_tokenizer.py
-Builds a character vocabulary from the cleaned corpus.
+Builds the character vocabulary.
 	•	prepare_tokens.py
-Converts the cleaned corpus into token IDs and writes dataset splits.
+Converts the cleaned corpus into token IDs and writes train, val, test splits.
+	•	train_transformers.py
+Trains Transformer models across sizes.
+	•	train_rnns.py
+Trains RNN (LSTM) models across sizes.
+	•	trans_analyze_scaling.py
+Parses Transformer logs and produces scaling summaries and plots.
 	•	compare_models.py
-Produces combined plots and tables comparing Transformer and RNN scaling.
-	•	prepare_tokens.sbatch, tokenize_abc.sbatch
-Slurm batch scripts used for preprocessing on HPC.
-	•	*.out
-Captured logs from preprocessing and training runs.
+Produces combined comparison plots and a summary table.
 
-Folders:
-	•	transformer/
-Transformer training, scaling analysis, plots, summaries, and sample evaluation:
-	•	Training: train_transformers.py, train_trans_xl.py, train_trans_xl1.py
-	•	Scaling analysis: trans_analyze_scaling.py, trans_scaling_summary.csv, trans_scaling_plot.png, trans_train_curve.png
-	•	Sampling and evaluation: generate_samples.py, evaluate_abc.py, compute_test_perplexity.py
-	•	Logs: trans_*.out, train_trans_xl.out
-	•	rnn/
-RNN training logs, scaling analysis, plots, and summaries:
-	•	Training logs: rnn_tiny.out, rnn_small.out, rnn_medium.out, rnn_large.out, rnn_xl.out
-	•	Scaling analysis: rnn_analyze_scaling.py, rnn_scaling_summary.csv, rnn_scaling_plot.png, rnn_train_curves.png
-	•	compare/
-Combined comparison artifacts:
+HPC scripts and logs:
+	•	tokenize_abc.sbatch, prepare_tokens.sbatch
+Slurm templates for preprocessing.
+	•	*.out
+Logs captured from preprocessing and training runs.
+
+transformer/
+
+Files typically found in transformer/:
+	•	Evaluation utilities
+	•	generate_samples.py
+	•	evaluate_abc.py
+	•	compute_test_perplexity.py
+	•	Scaling artifacts
+	•	trans_scaling_plot.png
+	•	trans_scaling_summary.csv
+	•	trans_train_curve.png
+	•	Logs
+	•	trans_tiny.out, trans_small.out, trans_medium.out, trans_large.out, trans_xl.out
+	•	trans_analyze_scaling.out
+
+rnn/
+
+Files typically found in rnn/:
+	•	rnn_analyze_scaling.py
+	•	rnn_scaling_plot.png
+	•	rnn_scaling_summary.csv
+	•	rnn_train_curves.png
+	•	scaling_results.csv
+	•	logs: rnn_tiny.out, rnn_small.out, rnn_medium.out, rnn_large.out, rnn_xl.out
+
+compare/
+
+Files typically found in compare/:
 	•	compare_scaling_plot.png
-	•	compare_curve_tiny.png, compare_curve_small.png, compare_curve_medium.png, compare_curve_large.png, compare_curve_xl.png
 	•	compare_table.csv
+	•	per size curve comparisons:
+	•	compare_curve_tiny.png
+	•	compare_curve_small.png
+	•	compare_curve_medium.png
+	•	compare_curve_large.png
+	•	compare_curve_xl.png
+
+Quickstart
+
+1) Environment
+
+Recommended:
+	•	Python 3.10+
+	•	PyTorch
+	•	numpy
+	•	matplotlib
+
+If you do not have a pinned environment file, install the core dependencies:
+
+pip install torch numpy matplotlib
+
+2) Configure paths
+
+Most scripts assume file paths are set near the top of the file. Before running, open each script and update:
+	•	input ABC directory or corpus file
+	•	output directories
+	•	checkpoint paths (for sample generation and perplexity)
 
 Data pipeline
 
-Overview
-
-The pipeline assumes you start with an ABC corpus generated from a symbolic music dataset (for example Lakh MIDI converted to ABC). The project then:
-	1.	Cleans the corpus and removes unusable files
-	2.	Computes summary statistics (counts and length distribution)
-	3.	Builds a character vocabulary
-	4.	Tokenizes and writes splits as NumPy arrays for fast training
-
-Run preprocessing
-
-Run these in order:
+Step 1: Clean the corpus
 
 python data_cleaning.py
+
+This stage removes unusable outputs (empty or malformed files) and applies the project filters described in the report.
+
+Step 2: Dataset stats
+
 python data_stats.py
+
+This produces corpus statistics such as counts and length distribution.
+
+Step 3: Build vocabulary
+
 python build_tokenizer.py
+
+This builds a character vocabulary from the cleaned corpus.
+
+Step 4: Tokenize and write dataset splits
+
 python prepare_tokens.py
 
-If you are running on Slurm, use the provided scripts as templates:
+This converts text into token IDs and writes train, validation, and test arrays (for example train.npy, val.npy, test.npy).
+
+HPC option
+
+If you are running preprocessing on Slurm:
 
 sbatch tokenize_abc.sbatch
 sbatch prepare_tokens.sbatch
 
-Outputs produced by preprocessing typically include:
-	•	vocabulary JSON (character to id mapping)
-	•	train.npy, val.npy, test.npy
-	•	stats logs from data_stats.py
+Training
 
-Modeling and experiments
+The scaling sweeps train 5 sizes: tiny, small, medium, large, xl. The scaling experiments are run under a controlled one epoch budget for comparable results.
 
-This project trains two architecture families under a controlled setup:
-	•	Transformer: decoder only causal self attention language model
-	•	RNN: stacked LSTM language model
+Train Transformers
 
-Both are evaluated at multiple sizes: tiny, small, medium, large, xl.
+python train_transformers.py
 
-Training configuration
+Transformer logs are saved as trans_*.out and artifacts are written under transformer/.
 
-Training is designed to be comparable across model sizes and architectures.
+Train RNNs
 
-Common settings:
-	•	Optimizer: AdamW
-	•	Learning rate: 3e-4
-	•	Weight decay: 0.1
-	•	Dropout: 0.1
-	•	Context length: 256
-	•	Batch size: 64 sequences
-	•	Gradient clipping: 1.0
-	•	LR schedule: linear warmup then cosine decay
-	•	Budget: 1 epoch for scaling sweeps
+python train_rnns.py
 
-Transformer scaling sweep
+RNN logs are saved as rnn_*.out and artifacts are written under rnn/.
 
-Run the Transformer sweep:
+Scaling analysis
 
-python transformer/train_transformers.py
+Transformer scaling analysis
 
-If you trained XL separately, use:
-
-python transformer/train_trans_xl.py
-
-Analyze Transformer scaling:
-
-python transformer/trans_analyze_scaling.py
+python trans_analyze_scaling.py
 
 Expected outputs:
 	•	transformer/trans_scaling_summary.csv
 	•	transformer/trans_scaling_plot.png
 	•	transformer/trans_train_curve.png
 
-RNN scaling sweep
-
-Run the RNN workflow:
-
-python train_rnns.py
-
-Analyze RNN scaling:
+RNN scaling analysis
 
 python rnn/rnn_analyze_scaling.py
 
@@ -136,66 +176,42 @@ Expected outputs:
 
 Combined comparison
 
-Once both scaling summaries exist, generate combined plots and tables:
-
-python compare_models.py
 python compare_models.py
 
-Primary artifacts are written under compare/:
+Expected outputs under compare/:
 	•	compare_scaling_plot.png
 	•	compare_table.csv
-	•	per size loss curve comparisons
+	•	compare_curve_*.png
 
-Best model selection and sample generation
+Sample generation and evaluation
 
-Based on the scaling study, the XL Transformer achieved the best validation loss under the fixed one epoch budget, so it is used for sample generation and evaluation.
+Sample generation and evaluation scripts live in transformer/.
 
-Generate samples
+Generate ABC samples
 
 python transformer/generate_samples.py
 
-Evaluate samples
-
-This repo includes three evaluation utilities:
-	•	ABC syntactic validity and formatting checks
-	•	ABC to MIDI conversion success (if MIDI tooling is available)
-	•	Test set perplexity
-
-Run evaluation:
+Evaluate ABC validity
 
 python transformer/evaluate_abc.py
+
+This checks syntactic validity and other lightweight formatting constraints. If ABC to MIDI conversion is configured in your environment, this script can also report conversion success.
+
+Compute test set perplexity
+
 python transformer/compute_test_perplexity.py
 
-Outputs and where to look
-	•	Transformer scaling artifacts: transformer/
-	•	RNN scaling artifacts: rnn/
-	•	Combined comparison: compare/
-	•	Raw logs: *.out and transformer/trans_*.out, rnn/rnn_*.out
+This evaluates perplexity on the held out test split built during prepare_tokens.py.
 
-If you are grading or reviewing quickly, the most important files are:
-	•	transformer/trans_scaling_plot.png
-	•	rnn/rnn_scaling_plot.png
-	•	compare/compare_scaling_plot.png
-	•	compare/compare_table.csv
-	•	ML1.pdf
+Results summary (from the report)
+	•	After filtering, the corpus contains 120,000,000 tokens with a 103 character vocabulary.
+	•	Under the fixed one epoch scaling setup, the XL Transformer achieved the best validation loss among Transformer sizes.
+	•	Power law fits show stronger scaling for Transformers than for RNNs in this setup.
+	•	Sample evaluation reports test perplexity and the fraction of generated ABC that successfully converts to MIDI.
 
-Notes and limitations
-	•	Scaling experiments use a fixed one epoch training budget to keep runs comparable. This is useful for controlled scaling analysis but does not measure fully converged performance.
-	•	ABC is format sensitive, so sample evaluation includes MIDI conversion success as a strict end to end validity check.
-	•	Qualitative evaluation depends on listening to converted MIDI outputs and manual inspection of ABC structure.
+For exact numbers and plots, see ML1.pdf and the generated artifacts under transformer/, rnn/, and compare/.
 
-Requirements
-	•	Python 3.10+
-	•	PyTorch
-	•	numpy
-	•	matplotlib
+Common issues
+	•	If a scaling analysis script does not parse logs, ensure the log format matches what the parser expects and that the .out file paths are correct.
+	•	If perplexity cannot be computed, confirm that test.npy exists and that the vocabulary used for evaluation matches the training vocabulary.
 
-If you have a requirements.txt or environment.yml, install from that. Otherwise, install the main dependencies with pip.
-
-License
-
-Add a license if you plan to keep this repository public.
-
-Citation
-
-If you reuse this code or results, cite the report in ML1.pdf and reference the source symbolic music dataset used to produce the ABC corpus.
