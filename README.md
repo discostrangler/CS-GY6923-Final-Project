@@ -246,7 +246,7 @@ python transformer/compute_test_perplexity.py
 
 This evaluates perplexity on the held out test split built during `prepare_tokens.py`.
 
-## Results summary (from the report)
+## Results summary
 
 * After filtering, the corpus contains 120,000,000 tokens with a 103 character vocabulary
 * Under the fixed one epoch scaling setup, the XL Transformer achieved the best validation loss among Transformer sizes
@@ -259,7 +259,3 @@ For exact numbers and plots, see `ML1.pdf` and the generated artifacts under `tr
 
 * If a scaling analysis script does not parse logs, ensure the log format matches what the parser expects and that the `.out` file paths are correct
 * If perplexity cannot be computed, confirm that `test.npy` exists and that the vocabulary used for evaluation matches the training vocabulary
-
-## License
-
-Add a license if you plan to keep this repository public.
