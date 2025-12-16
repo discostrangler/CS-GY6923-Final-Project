@@ -1,0 +1,201 @@
+Using device: cuda  |  mode: train
+Vocab size: 103
+RNN config for tiny: {'n_layers': 2, 'd_model': 160}
+RNN tiny has 428,960 trainable parameters
+GPU memory at start: 1.64 MB
+Loading datasets (memmap)...
+Train effective tokens: 117,599,999
+Tokens per step:        16,384
+Steps per epoch:        7,177
+Starting training for exactly 1 epoch
+Step 50/7177  loss 3.9229  lr 0.000043
+Step 100/7177  loss 3.0237  lr 0.000085
+Step 150/7177  loss 2.5789  lr 0.000127
+Step 200/7177  loss 1.9263  lr 0.000168
+[eval] step 200  val_loss 2.0939
+Step 250/7177  loss 1.8308  lr 0.000210
+Step 300/7177  loss 1.7973  lr 0.000252
+Step 350/7177  loss 1.7868  lr 0.000294
+Step 400/7177  loss 1.8714  lr 0.000300
+[eval] step 400  val_loss 1.5732
+Step 450/7177  loss 1.3808  lr 0.000300
+Step 500/7177  loss 1.5364  lr 0.000300
+Step 550/7177  loss 1.3582  lr 0.000299
+Step 600/7177  loss 1.5671  lr 0.000299
+[eval] step 600  val_loss 1.4212
+Step 650/7177  loss 1.5594  lr 0.000299
+Step 700/7177  loss 1.3626  lr 0.000298
+Step 750/7177  loss 1.4440  lr 0.000298
+Step 800/7177  loss 1.3117  lr 0.000297
+[eval] step 800  val_loss 1.3486
+Step 850/7177  loss 1.4527  lr 0.000296
+Step 900/7177  loss 1.4379  lr 0.000295
+Step 950/7177  loss 1.6353  lr 0.000294
+Step 1000/7177  loss 1.2287  lr 0.000293
+[eval] step 1000  val_loss 1.2970
+Step 1050/7177  loss 1.2221  lr 0.000292
+Step 1100/7177  loss 1.4971  lr 0.000291
+Step 1150/7177  loss 1.2655  lr 0.000290
+Step 1200/7177  loss 1.2964  lr 0.000289
+[eval] step 1200  val_loss 1.2538
+Step 1250/7177  loss 1.1314  lr 0.000288
+Step 1300/7177  loss 1.2115  lr 0.000286
+Step 1350/7177  loss 1.3427  lr 0.000285
+Step 1400/7177  loss 1.0670  lr 0.000283
+[eval] step 1400  val_loss 1.2238
+Step 1450/7177  loss 1.2913  lr 0.000281
+Step 1500/7177  loss 1.1687  lr 0.000280
+Step 1550/7177  loss 1.4396  lr 0.000278
+Step 1600/7177  loss 1.2224  lr 0.000276
+[eval] step 1600  val_loss 1.1992
+Step 1650/7177  loss 1.1948  lr 0.000274
+Step 1700/7177  loss 1.1568  lr 0.000272
+Step 1750/7177  loss 1.0329  lr 0.000270
+Step 1800/7177  loss 1.2258  lr 0.000268
+[eval] step 1800  val_loss 1.1806
+Step 1850/7177  loss 1.0138  lr 0.000266
+Step 1900/7177  loss 1.1359  lr 0.000264
+Step 1950/7177  loss 1.1471  lr 0.000261
+Step 2000/7177  loss 1.1648  lr 0.000259
+[eval] step 2000  val_loss 1.1586
+Step 2050/7177  loss 1.1638  lr 0.000257
+Step 2100/7177  loss 1.0701  lr 0.000254
+Step 2150/7177  loss 1.2109  lr 0.000252
+Step 2200/7177  loss 1.1290  lr 0.000249
+[eval] step 2200  val_loss 1.1475
+Step 2250/7177  loss 1.0819  lr 0.000247
+Step 2300/7177  loss 0.9157  lr 0.000244
+Step 2350/7177  loss 1.1467  lr 0.000241
+Step 2400/7177  loss 1.0141  lr 0.000238
+[eval] step 2400  val_loss 1.1470
+Step 2450/7177  loss 1.1288  lr 0.000236
+Step 2500/7177  loss 0.9901  lr 0.000233
+Step 2550/7177  loss 1.1176  lr 0.000230
+Step 2600/7177  loss 0.8784  lr 0.000227
+[eval] step 2600  val_loss 1.1177
+Step 2650/7177  loss 1.0477  lr 0.000224
+Step 2700/7177  loss 1.1424  lr 0.000221
+Step 2750/7177  loss 1.0856  lr 0.000218
+Step 2800/7177  loss 1.1197  lr 0.000215
+[eval] step 2800  val_loss 1.1143
+Step 2850/7177  loss 0.9062  lr 0.000212
+Step 2900/7177  loss 1.1114  lr 0.000208
+Step 2950/7177  loss 0.9958  lr 0.000205
+Step 3000/7177  loss 1.3212  lr 0.000202
+[eval] step 3000  val_loss 1.1000
+Step 3050/7177  loss 1.0290  lr 0.000199
+Step 3100/7177  loss 1.1777  lr 0.000195
+Step 3150/7177  loss 1.2054  lr 0.000192
+Step 3200/7177  loss 1.1293  lr 0.000189
+[eval] step 3200  val_loss 1.0955
+Step 3250/7177  loss 1.0082  lr 0.000185
+Step 3300/7177  loss 0.8574  lr 0.000182
+Step 3350/7177  loss 1.1964  lr 0.000179
+Step 3400/7177  loss 1.2187  lr 0.000175
+[eval] step 3400  val_loss 1.0842
+Step 3450/7177  loss 0.9861  lr 0.000172
+Step 3500/7177  loss 1.1615  lr 0.000168
+Step 3550/7177  loss 1.2343  lr 0.000165
+Step 3600/7177  loss 1.0560  lr 0.000162
+[eval] step 3600  val_loss 1.0740
+Step 3650/7177  loss 1.1141  lr 0.000158
+Step 3700/7177  loss 1.0085  lr 0.000155
+Step 3750/7177  loss 0.9146  lr 0.000151
+Step 3800/7177  loss 1.0539  lr 0.000148
+[eval] step 3800  val_loss 1.0704
+Step 3850/7177  loss 1.0994  lr 0.000144
+Step 3900/7177  loss 0.9275  lr 0.000141
+Step 3950/7177  loss 1.2392  lr 0.000137
+Step 4000/7177  loss 0.8539  lr 0.000134
+[eval] step 4000  val_loss 1.0597
+Step 4050/7177  loss 1.1693  lr 0.000131
+Step 4100/7177  loss 0.9690  lr 0.000127
+Step 4150/7177  loss 0.9433  lr 0.000124
+Step 4200/7177  loss 0.9633  lr 0.000120
+[eval] step 4200  val_loss 1.0585
+Step 4250/7177  loss 1.0414  lr 0.000117
+Step 4300/7177  loss 1.1411  lr 0.000114
+Step 4350/7177  loss 1.1218  lr 0.000110
+Step 4400/7177  loss 0.8935  lr 0.000107
+[eval] step 4400  val_loss 1.0536
+Step 4450/7177  loss 1.0534  lr 0.000104
+Step 4500/7177  loss 1.0737  lr 0.000100
+Step 4550/7177  loss 1.0138  lr 0.000097
+Step 4600/7177  loss 1.1677  lr 0.000094
+[eval] step 4600  val_loss 1.0519
+Step 4650/7177  loss 1.1944  lr 0.000091
+Step 4700/7177  loss 1.1110  lr 0.000088
+Step 4750/7177  loss 1.4283  lr 0.000084
+Step 4800/7177  loss 0.9631  lr 0.000081
+[eval] step 4800  val_loss 1.0457
+Step 4850/7177  loss 1.0824  lr 0.000078
+Step 4900/7177  loss 1.1583  lr 0.000075
+Step 4950/7177  loss 0.9184  lr 0.000072
+Step 5000/7177  loss 1.2225  lr 0.000069
+[eval] step 5000  val_loss 1.0415
+Step 5050/7177  loss 1.1516  lr 0.000066
+Step 5100/7177  loss 0.9709  lr 0.000064
+Step 5150/7177  loss 1.1950  lr 0.000061
+Step 5200/7177  loss 1.1241  lr 0.000058
+[eval] step 5200  val_loss 1.0371
+Step 5250/7177  loss 1.0226  lr 0.000055
+Step 5300/7177  loss 1.2339  lr 0.000053
+Step 5350/7177  loss 0.7837  lr 0.000050
+Step 5400/7177  loss 1.0151  lr 0.000048
+[eval] step 5400  val_loss 1.0349
+Step 5450/7177  loss 1.0624  lr 0.000045
+Step 5500/7177  loss 1.0877  lr 0.000043
+Step 5550/7177  loss 0.9991  lr 0.000040
+Step 5600/7177  loss 0.8921  lr 0.000038
+[eval] step 5600  val_loss 1.0335
+Step 5650/7177  loss 1.1177  lr 0.000036
+Step 5700/7177  loss 1.1715  lr 0.000033
+Step 5750/7177  loss 1.0555  lr 0.000031
+Step 5800/7177  loss 0.9491  lr 0.000029
+[eval] step 5800  val_loss 1.0303
+Step 5850/7177  loss 1.0603  lr 0.000027
+Step 5900/7177  loss 1.1419  lr 0.000025
+Step 5950/7177  loss 0.9965  lr 0.000023
+Step 6000/7177  loss 1.1059  lr 0.000022
+[eval] step 6000  val_loss 1.0293
+Step 6050/7177  loss 1.0430  lr 0.000020
+Step 6100/7177  loss 1.0194  lr 0.000018
+Step 6150/7177  loss 1.0294  lr 0.000016
+Step 6200/7177  loss 1.0659  lr 0.000015
+[eval] step 6200  val_loss 1.0286
+Step 6250/7177  loss 1.2775  lr 0.000013
+Step 6300/7177  loss 1.2038  lr 0.000012
+Step 6350/7177  loss 1.0888  lr 0.000011
+Step 6400/7177  loss 1.0889  lr 0.000010
+[eval] step 6400  val_loss 1.0274
+Step 6450/7177  loss 0.9774  lr 0.000008
+Step 6500/7177  loss 1.0210  lr 0.000007
+Step 6550/7177  loss 1.0796  lr 0.000006
+Step 6600/7177  loss 1.0697  lr 0.000005
+[eval] step 6600  val_loss 1.0262
+Step 6650/7177  loss 1.1879  lr 0.000004
+Step 6700/7177  loss 0.9443  lr 0.000004
+Step 6750/7177  loss 1.1030  lr 0.000003
+Step 6800/7177  loss 0.8848  lr 0.000002
+[eval] step 6800  val_loss 1.0257
+Step 6850/7177  loss 1.1404  lr 0.000002
+Step 6900/7177  loss 1.0790  lr 0.000001
+Step 6950/7177  loss 0.9371  lr 0.000001
+Step 7000/7177  loss 0.9815  lr 0.000000
+[eval] step 7000  val_loss 1.0256
+Step 7050/7177  loss 1.0972  lr 0.000000
+Step 7100/7177  loss 0.9882  lr 0.000000
+Step 7150/7177  loss 1.0285  lr 0.000000
+[eval] step 7177  val_loss 1.0254
+===========================================
+RNN model name:       tiny
+Parameters:           428,960
+Final val loss:       1.0254
+Steps in 1 epoch:     7177
+Total train tokens:   117,587,968
+Wall clock seconds:   76.7
+Wall clock minutes:   1.3
+GPU memory start:     1.64 MB
+GPU memory end:       83.54 MB
+GPU memory peak:      472.35 MB
+===========================================

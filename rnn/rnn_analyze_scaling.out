@@ -1,0 +1,10 @@
+RNN fitted power law: L ≈ 3.5426 * N^(-0.1294) + 0.3652
+RNN scaling exponent alpha ≈ 0.1294
+Wrote RNN summary with fit parameters to rnn_scaling_summary.csv
+rnn_tiny    params=428,960  val_loss=1.0254  time=76.7s  gpu_peak=472.4MB
+rnn_small   params=3,265,472  val_loss=0.8816  time=108.1s  gpu_peak=819.1MB
+rnn_medium  params=10,752,432  val_loss=0.7956  time=146.4s  gpu_peak=1491.4MB
+rnn_large   params=25,297,920  val_loss=0.7508  time=235.5s  gpu_peak=2455.4MB
+rnn_xl      params=85,453,152  val_loss=0.7022  time=561.2s  gpu_peak=5346.2MB
+Saved RNN scaling plot to rnn_scaling_plot.png
+Wrote combined RNN training curves plot to rnn_train_curves_all.png
