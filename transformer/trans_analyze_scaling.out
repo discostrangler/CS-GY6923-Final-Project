@@ -1,0 +1,10 @@
+Fitted power law: L ≈ 160.6349 * N^(-0.4428) + 0.5158
+Scaling exponent alpha ≈ 0.4428
+Wrote summary with fit parameters to scaling_summary.csv
+tiny    params=442,752  val_loss=1.0237  time=39.9s  gpu_peak=693.2MB
+small   params=3,251,456  val_loss=0.7293  time=139.2s  gpu_peak=2447.2MB
+medium  params=10,785,408  val_loss=0.6340  time=318.7s  gpu_peak=4067.6MB
+large   params=25,403,904  val_loss=0.5936  time=616.9s  gpu_peak=7157.1MB
+xl      params=85,331,712  val_loss=0.5731  time=1793.4s  gpu_peak=16261.2MB
+Saved scaling plot to scaling_plot.png
+Wrote combined training curves plot to train_curves_all.png
